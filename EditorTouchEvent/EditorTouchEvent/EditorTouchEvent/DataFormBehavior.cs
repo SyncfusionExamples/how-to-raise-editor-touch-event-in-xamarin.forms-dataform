@@ -22,7 +22,7 @@ namespace EditorTouchEvent
     }
 
     public class ContactInfo
-    {
+    { 
         public string Name { get; set; }
         public string Address { get; set; }
         [Display(Name = "Contact Number")]
