@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EditorTouchEvent"
+             xmlns:dataForm="clr-namespace:Syncfusion.XForms.DataForm;assembly=Syncfusion.SfDataForm.XForms"
+             x:Class="EditorTouchEvent.MainPage">
+    <ContentPage.Behaviors>
+        <local:DataFormBehavior/>
+    </ContentPage.Behaviors>
+    <dataForm:SfDataForm x:Name="dataForm"/>
+</ContentPage>
